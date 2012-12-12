@@ -24,8 +24,8 @@ function MysqlConnect()
 		{
 			$host 		= "localhost"; 	//database location
 			$user 		= "root"; 		//database username
-			$pass 		= "vertrigo"; 	//database password
-			$db_name 	= "vollserv"; 	//database name
+			$pass 		= ""; 	//database password
+			$db_name 	= "volley"; 	//database name
 
 			//database connection
 			$link = mysql_connect($host, $user, $pass);
