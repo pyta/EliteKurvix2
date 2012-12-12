@@ -1,0 +1,472 @@
+﻿/* GENERAL OBJECTS STYLES START */
+
+* 		{ padding: 0; margin: 0; }
+img 		{ border:0; }
+body 	{ margin:0px 0px; text-align:center; background-color: #0b0c0c; font-family: Tahoma, Geneva, 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:14px;}
+a  		{ text-decoration:none; font-style:bold; font-size:14px;}
+a:hover 	{ text-decoration:none;	font-style:bold; color: #765432;	font-size: 14px; }
+h2 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#1f282f; margin:18px 0 0 28px; }
+h2 a		{ color:#f0f0f0; text-decoration:underline;	font-style:bold; }
+h5 		{ font-family:Tahoma, Geneva, sans-serif;	font-size:16px;	color:#323232; height:29px;	padding-left:5px; background:url(images/h5_bg.png) repeat-x; }
+
+/* GENERAL OBJECTS STYLES END */
+
+/* FORM STYLES START */
+
+input, textarea , select 	{ padding: 8px;	border: solid 1px #E5E5E5; font: normal 12px Verdana, Tahoma, sans-serif; width: auto; background: #FFFFFF url('images/form_background.png') left top repeat-x; }
+.InputText 				{ width: 140px;}
+
+/* FORM STYLES END */
+
+.LogPanelError {
+	width:291px;
+	height: 65px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0px auto;
+	text-align:center;
+	overflow:hidden;
+	color: #FFFFFF;
+	
+	position:relative;
+	left:361px;
+	top:0px;
+	
+	background-image:url('images/loginPanel.png');
+}
+
+.LogPanelOK {
+	width:290px;
+	height: 65px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0px auto;
+	text-align:center;
+	overflow:hidden;
+	color: #FFFFFF;
+	
+	position:relative;
+	left:361px;
+	top:0px;
+	
+	background-image:url('images/loginPanel.png');
+}
+
+.AdminPanel {
+	width:500px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	background-color:#eee;
+}
+
+.Baner {
+	width:1200px;
+	height:200px;
+	margin:0px auto;
+	text-align:left;
+	background-image:url('images/logo.png');
+}	
+	
+.Menu {
+	width:1200px;
+	height: 0px;
+	margin:0px auto;
+	text-align:center;
+	background-color:#ddd;
+	background-image:url('images/menu.png');
+	vertical-align: middle;
+	visibility: hidden;
+}
+
+.KomT
+{
+	background:url(images/ANATop.png) no-repeat;
+	width: 600px;
+	height: 40px;
+	margin: auto;
+}
+
+.KomM
+{
+	background:url(images/ANAMiddle.png) repeat-y;
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+.KomB
+{
+	background:url(images/ANABottom.png) no-repeat;
+	width: 600px;
+	height: 40px;
+	margin: auto;
+}
+
+.ButtonOK
+{
+	width:100px;
+	position:absolute;
+	right:15px;
+	bottom:15px;
+	padding:5px;
+	margin:0px auto;
+	text-align:center;
+	border:2px solid #00008B;
+	background-color:#0000FF;
+	color: #FFFFFF;
+	text-decoration: bold;
+}
+
+.ButtonERROR
+{
+	width:100px;
+	position:absolute;
+	right:15px;
+	bottom:15px;
+	padding:5px;
+	margin:0px auto;
+	text-align:center;
+	border:2px solid #00008B;
+	background-color:#0000FF;
+	color: #FFFFFF;
+	text-decoration: bold;
+}
+
+.Avatar
+{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.NewsBounds
+{
+	padding:0px;
+	margin:2px auto;
+	height:100%;
+}
+
+.MenuItem
+{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.MenuItem:hover {
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border-left:5px solid #8B0000;
+	border-right:5px solid #8B0000;
+	border-top:5px solid #8B0000;
+	border-bottom:5px solid #8B0000;
+}
+
+.NewsTopic
+{
+	
+}
+
+.NewsContent
+{
+
+}
+
+.NewsBottom
+{
+
+}
+ 
+ .BackDiv {
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin:0px auto;
+	overflow:hidden;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	background-color:#000000;
+ }
+
+.Contenter
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin: 0px auto;
+	width:500px;
+	text-align: left;
+}
+
+.Bottomer
+{
+	padding-top: 5px;
+	margin: 0px auto;
+	width:500px;
+	text-decoration:none;
+	color: #222222;
+	font-size: 20px;
+	border-top:1px dashed #8B0000;
+	text-align: center;
+}
+
+#CoolButton
+{
+	width: 70px;
+	height: 30px;
+	background-image:url('images/buttonbsckl3.png');
+	color: #222222;
+	font-size: 14px;
+	text-align: center;
+	text-decoration:bold;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+	
+	cursor:pointer;
+	
+	float: right;
+}
+
+#CoolButton:hover
+{
+	width: 70px;
+	height: 30px;
+	background-image:url('images/buttonbsckl3Activ.png');
+	color: #222222;
+	font-size: 14px;
+	text-align: center;
+	text-decoration:bold;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+	
+	cursor:pointer;
+}
+
+#CoolExit
+{
+	background-image:url('images/closebutton.png');
+	
+	width: 25px;
+	height: 25px;
+	float:right;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+	
+	cursor:pointer;
+}
+
+#CoolExit:hover
+{
+	background-image:url('images/closebuttonActiv.png');
+	
+	width: 25px;
+	height: 25px;
+	float:right;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+	
+	cursor:pointer;
+}
+
+.AddAvatar
+{
+	background-image:url('images/addAvatar.png');
+	
+	width: 128px; 
+	height:128px; 
+	cursor:pointer;
+	float:left;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+}
+
+.AddAvatar:hover
+{
+	background-image:url('images/addAvatarActiv.png');
+
+	width: 128px; 
+	height:128px; 
+	cursor:pointer;
+	float:left;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+}
+
+.UserAvatar 
+{
+	width: 128px; 
+	height:128px; 
+	cursor:pointer;
+	float:left;
+	
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-bottom:0px;
+}
+
+#Description
+{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	
+	color: #666666;
+	font-size: 12px;
+	
+	margin: 0px auto;
+	
+	border-left:1px dashed #333;
+	border-right:1px dashed #333;
+	border-top:1px dashed #333;
+	border-bottom:1px dashed #333;
+}
+
+.ContentPage {
+	width:1200px;
+	min-height: 380px;
+	height: 100%;
+	margin:0px auto;
+	text-align:left;
+	background-color:#fefefe;
+	color: #FFFFFF;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+
+.error_box
+{
+	width:85%;
+	clear:both;
+	background:url(images/error.png) no-repeat left #fce9e9;
+	border:1px #eac7c7 solid;
+	background-position:15px 10px;
+	padding:20px 20px 15px 60px;
+	margin:0 0 10px 0;
+}
+
+.button 
+{
+	width: auto;
+	padding: 10px 14px;
+	background: #2D7BB2;
+	border: 2px solid #2D7BB2;
+	font-size: 0.9em;
+	font-style:bold;
+	color: #FFFFFF;
+	cursor:pointer;
+}
+
+.button:hover 
+{
+  border-color: #5B605D;
+  background: #5B605D;
+}
+
+/* CONTENT STYLES  START */
+
+#MainPanel 			{ width: 600px; min-height: 380px; margin: 0 auto; float: left; position:relative; background: #fefefe url(images/main-bg.jpg) repeat-x;}
+#MainPanel #box		{ width: 577px; margin: 0 auto; overflow: hidden; }
+#MainPanel .header 	{ width: 577px;	height: 53px; background:url(images/content-header.png) no-repeat; overflow: hidden; }
+#MainPanel .content	{ width: 577px; background:url(images/content-bg.png) repeat-y; overflow: hidden; }
+#MainPanel .footer 	{ width: 577px; height: 10px; background:url(images/content-footer.png) no-repeat; overflow: hidden; padding-bottom:20px; }
+#MainPanel h2 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#fff; margin:20px 0 0 20px; }
+#MainPanel .text 	{ margin: 10px 15px 10px 15px; color: #000000; }
+#MainPanel p#inf 	{ background:url(images/dotted-line.png) repeat-x; font-size: 10px; padding: 10px 10px 10px; color:#848484; }
+
+/* CONTENT STYLES END */
+/* POCKET STYLES  START */
+
+#PocketPanel 			{ width: 300px; min-height: 380px; margin: 0 auto; float: left; position:relative; background: #fefefe url(images/main-bg.jpg) repeat-x; }
+#PocketPanel #box		{ width: 291px; margin: 0 auto; overflow: hidden; }
+#PocketPanel .header 	{ width: 291px;	height: 53px; background:url(images/cool-header.png) no-repeat; overflow: hidden; color: #000000; }
+#PocketPanel .content	{ width: 291px; background:url(images/cool-bg.png) repeat-y; overflow: hidden; }
+#PocketPanel .footer 	{ width: 291px; height: 10px; background:url(images/cool-footer.png) no-repeat; overflow: hidden; padding-bottom:20px; }
+#PocketPanel h2 			{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#000; margin:17px 0 0 17px; }
+#PocketPanel .text 		{ margin: 10px 15px 10px 15px; color: #FFFFFF; }
+#PocketPanel p#inf 		{ background:url(images/dotted-line.png) repeat-x; font-size: 10px; padding: 10px 10px 10px; color:#848484; }
+
+/* POCKET STYLES END */
+/* MODAL STYLES START */
+
+#ModalPanel			{ width: 600px; padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px; margin:0px auto; overflow:hidden; color: #000000; position:absolute; top: 30px; visibility: hidden; }
+#ModalPanel #box		{ width: 600px; margin: 0 auto; overflow: hidden; }
+#ModalPanel .header 	{ width: 600px;	height: 40px; background:url(images/ANATop.png) no-repeat; overflow: hidden; }
+#ModalPanel .content	{ width: 600px; background:url(images/ANAMiddle.png) repeat-y; overflow: hidden;}
+#ModalPanel .footer 	{ width: 600px; height: 40px; background:url(images/ANABottom.png) no-repeat; overflow: hidden; padding-bottom:20px; }
+#ModalPanel h2 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#fff; margin:20px 0 0 20px; }
+#ModalPanel .text 	{ margin: 10px 15px 10px 15px; color: #000000; }
+#ModalPanel p#inf 	{ background:url(images/dotted-line.png) repeat-x; font-size: 10px; padding: 10px 10px 10px; color:#848484; }
+
+/* MODAL STYLES END */
+/* LOG PANAL STYLES START */
+
+#LogPanel 			{ width: 500px; margin: 0 auto; float: right; position:relative;}
+#LogPanel #box		{ width: 450px; margin: 0 auto; overflow: hidden; }
+#LogPanel .header 	{ width: 450px;	height: 53px; background:url(images/log-header.png) no-repeat; overflow: hidden; color: #000000; }
+#LogPanel .content	{ width: 450px; background:url(images/log-bg.png) repeat-y; overflow: hidden; text-align: center; color: #FFFFFF;}
+#LogPanel .footer 	{ width: 450px; height: 10px; background:url(images/log-footer.png) no-repeat; overflow: hidden; padding-bottom:20px; }
+#LogPanel h2 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#000; margin:10px 20px 0 10px; }
+#LogPanel h3 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#000; margin:15px 20px 0 20px; }
+#LogPanel .text 		{ margin: 10px 15px 10px 15px; color: #FFFFFF; }
+#LogPanel p#inf 		{ background:url(images/dotted-line.png) repeat-x; font-size: 10px; padding: 10px 10px 10px; color:#848484; }
+
+/* LOG PANAL STYLES END */
+
+/* MENU STYLES  START */
+
+#MenuPanel 			{ width: 300px; min-height: 380px; margin: 0 auto; float: left; position:relative; background: #fefefe url(images/main-bg.jpg) repeat-x; }
+#MenuPanel #box		{ width: 291px; margin: 0 auto; overflow: hidden; }
+#MenuPanel .header 	{ width: 291px;	height: 53px; background:url(images/cool-header.png) no-repeat; overflow: hidden; color: #000000; }
+#MenuPanel .content	{ width: 291px; background:url(images/cool-bg.png) repeat-y; overflow: hidden; }
+#MenuPanel .footer 	{ width: 291px; height: 10px; background:url(images/cool-footer.png) no-repeat; overflow: hidden; padding-bottom:20px; }
+#MenuPanel h2 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#000; margin:17px 0 0 17px; }
+#MenuPanel h3 		{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#FFF; margin:0px 0px 0px 0px; border-top:1px dashed #8B0000; border-bottom:1px dashed #8B0000;}
+#MenuPanel .text 	{ margin: 10px 15px 10px 15px; color: #FFFFFF; }
+#MenuPanel p#inf 	{ background:url(images/dotted-line.png) repeat-x; font-size: 10px; padding: 10px 10px 10px; color:#848484; }
+
+/* MENU STYLES END */
+
+.HeaderModal
+{
+	padding-bottom: 5px;
+	margin: 0px auto;
+	width:500px;
+	text-decoration:none;
+	color: #222222;
+	font-size: 20px;
+	border-bottom:1px dashed #8B0000;
+	text-align: left;
+}
